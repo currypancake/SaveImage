@@ -3,9 +3,9 @@
 중간에 이해못하겠거나 실행 안되면 나 호출 ㄱㄱ
 
 결과물↓
-![res1]('')
-![res2]('')
-![res3]('')
+![res1]('https://github.com/currypancake/SaveImage/blob/master/image/res1.png')
+![res2]('https://github.com/currypancake/SaveImage/blob/master/image/res2.png')
+![res3]('https://github.com/currypancake/SaveImage/blob/master/image/res3.png')
 
 
 ## 필수 설치
@@ -31,7 +31,7 @@ ex) 세무조커 난쟈타운 콜라보 이벤트 같은 경우는 scode = '_598
 3. 모바게 페이지로 이동한다. https://sp.mbga.jp/?_from=globalfooter
 4. 개발자 툴에서 Application 탭으로 이동한다.
 5. 그리고 이미지처럼 SP_LOGIN_SESSION 이라고 써있는걸 누르고 아래 내가 빨간색으로 가려둔 걸 복붙해서 따옴표 안에 넣으면 됨
-![개발자 툴 Application 탭]('')
+![개발자 툴 Application 탭]('https://github.com/currypancake/SaveImage/blob/master/image/cookie.png')
 이거 그냥 개인정보라고 생각하면 편함 그러니까 남들한테 보여주지 마셈
 
 
