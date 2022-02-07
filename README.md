@@ -165,8 +165,8 @@ def findRImage():
 
 ~~~py
 def findSRImage():
-for j in range(1, 20) : #SR번호 25~39(40 미포함)까지 이미지 있는지 확인
-			checkCard(i, j)
+	for j in range(1, 20) : #SR번호 25~39(40 미포함)까지 이미지 있는지 확인
+		checkCard(i, j)
 
 def findRImage():
 	# 쥬피터 ~ 레제
