@@ -8,6 +8,9 @@
 ![res2](https://github.com/currypancake/SaveImage/blob/master/image/res2.png)
 ![res3](https://github.com/currypancake/SaveImage/blob/master/image/res3.png)
 
+## 다운로드 하는 법
+https://github.com/currypancake/wiki-info-macro
+이거랑 똑같
 
 ## 필수 설치
 * 파이썬
