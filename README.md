@@ -34,7 +34,7 @@ https://bigphu.tistory.com/96 이거 따라하고
 `error: subprocess-exited-with-error× python setup.py egg_info did not run successfully.│ exit code: 1`<br />
 이거 뜨면
 
-https://musclebear.tistory.com/131 이거 따라해보셈
+[링크](https://ychcom.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-setuppy-egginfo%E2%80%9D-failed-with-error-code-1) 이거 따라해보셈
 
 ## 보안코드와 쿠키
 카드 보안코드 뜯는 법은 알거라 생각하고 뜯는 방법에 대해서는 다루지 않겠음 <br />
