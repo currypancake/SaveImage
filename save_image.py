@@ -3,9 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 
 # 보안코드
-scode = '_59822b672f'
+scode = ''
 # 본인 SP_LOGIN_SESSION 값
-login_cookie = '165431357%2Ee722a84f700f510d4c019dbb20e175da031fe7ba9a889d0b4063c518bab9e8ce'	
+login_cookie = ''	
 
 # 캐릭터 목록
 character = [
