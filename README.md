@@ -54,7 +54,7 @@ ex) 세무조커 난쟈타운 콜라보 이벤트 같은 경우는 scode = '_598
 
 ## 실행법
 1. save_image.py 파일이 있는 폴더에서 파워쉘을 연다. (파워쉘을 여는 법 - https://www.manualfactory.net/11724)
-2. python3 save_image.py <= 이거 복붙하고 엔터
+2. python save_image.py <= 이거 복붙하고 엔터
 
 
 ## 주의사항
