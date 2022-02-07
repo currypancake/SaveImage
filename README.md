@@ -24,6 +24,18 @@ pip install BeautifulSoup <br />
 
 설치가 안돼있으면 안돌아갑니다.
 
+### 라이브러리 설치 오류시
+`'pip' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지
+확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.`
+라는 문구가 뜨면 
+
+https://bigphu.tistory.com/96 이거 따라하고
+
+`error: subprocess-exited-with-error× python setup.py egg_info did not run successfully.│ exit code: 1`
+이거 뜨면
+
+https://musclebear.tistory.com/131 이거 따라해보셈
+
 ## 보안코드와 쿠키
 카드 보안코드 뜯는 법은 알거라 생각하고 뜯는 방법에 대해서는 다루지 않겠음 <br />
 save_image.py 파일을 열면 6번째 줄에 scode = '' 라고 써 있는데 따옴표 사이에 보안코드 넣으면 됨 (언더바 포함) <br />
