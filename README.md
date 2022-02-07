@@ -14,6 +14,7 @@ https://github.com/currypancake/wiki-info-macro
 
 ## 필수 설치
 * 파이썬
+파이썬 설치하기 - https://wikidocs.net/8
 
 * 라이브러리
 파워쉘을 열고 (파워쉘을 여는 법 - https://www.manualfactory.net/11724) <br />
