@@ -122,6 +122,57 @@ for j in range(40, 50)
 ~~~
 이런식으로 수정해야한다는 뜻임 ㅇㅋ??
 
+
 그리고 카드 이름 일단 내가 쓰던 형식으로 해놨는데 불만 있어도 참으셈 ㅎㅎ <br />
 근데 문제가 카드 번호같은게 내가 알기론 일단 츠바사가 번호가 한칸씩 밀린거로 알아서 나중에 이름 직접 수정해야함 <br />
 내가 이거 하나하나 처리는 못해서 그냥 나중에 위키에 이미지 올릴때 중복파일이다 어쩌고 하면 그때 직접 고치셈 ㅎㅎ
+
+## 응용하기
+봐도 되도 안봐도 되고
+
+`for j in range(1, 20)`
+이렇게 쓰고 보안코드 
+`scode = ''`
+이렇게 해놓으면
+
+모든 캐릭터 스알 레어 이미지를 1번부터 19번까지 전부 다운로드 합니다
+
+### 본인 담당만 다운로드 하고 싶을 때
+코드 상단에 캐릭터 목록에서 자기 담당 번호를 찾는다
+루이의 경우 36번
+
+~~~py
+def findSRImage():
+	# 쥬피터 ~ 코가도
+	for i in range(1, 41) :
+		for j in range(25, 40) : #SR번호 25~39(40 미포함)까지 이미지 있는지 확인
+			checkCard(i, j)
+
+	# 깃발 ~ 레제
+	for i in range(42, 47) :
+		for j in range(17, 40) : #SR번호 25~39(40 미포함)까지 이미지 있는지 확인
+			checkCard(i, j)
+
+def findRImage():
+	# 쥬피터 ~ 레제
+	for i in range(1, 47) :
+		for j in range(17, 40) : #R번호 17~39(40 미포함)까지 이미지 있는지 확인
+			find = isImage('R', i, j, 'P')
+			if find == True:
+				saveAllImage('R', i, j)
+~~~
+이 코드를
+
+~~~py
+def findSRImage():
+for j in range(1, 20) : #SR번호 25~39(40 미포함)까지 이미지 있는지 확인
+			checkCard(i, j)
+
+def findRImage():
+	# 쥬피터 ~ 레제
+	for j in range(1, 20) : #R번호 17~39(40 미포함)까지 이미지 있는지 확인
+		find = isImage('R', i, j, 'P')
+		if find == True:
+			saveAllImage('R', i, j)
+~~~
+이렇게 바꾸고 i라고 써있는 부분에 자기 담당 번호 쓰면됨

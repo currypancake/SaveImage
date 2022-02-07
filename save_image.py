@@ -10,52 +10,52 @@ login_cookie = ''
 # 캐릭터 목록
 character = [
 	'no',
-	'01jupiter_01toumaa_2',
-	'01jupiter_02syoutam_3',
-	'01jupiter_03hokutoi_1',
-	'02drasta_01terut_2',
-	'02drasta_02kaorus_1',
-	'02drasta_03tubasak_3',
-	'03alte_01keit_3',
-	'03alte_02reik_1',
-	'04beit_01kyoujit_1',
-	'04beit_02pierre_3',
-	'04beit_03minoriw_2',
-	'05w_01yusukea_3',
-	'05w_02kyosukea_1',
-	'06frame_01hideoa_1',
-	'06frame_02ryuk_2',
-	'06frame_03seijis_3',
-	'07sai_01kirion_1',
-	'07sai_02syomah_3',
-	'07sai_03kuros_3',
-	'08highj_01hayatoa_2',
-	'08highj_02junf_1',
-	'08highj_03natukis_1',
-	'08highj_04harunaw_3',
-	'08highj_05sikii_2',
-	'09godp_01suzakua_2',
-	'09godp_02genbuk_1',
-	'10cafe_01yukihirok_3',
-	'10cafe_02souichiros_1',
-	'10cafe_03asselin_2',
-	'10cafe_04makiou_3',
-	'10cafe_05sakim_2',
-	'11mofu_01naoo_1',
-	'11mofu_02sirot_2',
-	'11mofu_03kanonh_3',
-	'12sem_01michioh_1',
-	'12sem_02ruim_3',
-	'12sem_03jiroy_1',
-	'13kogado_01takerut_2',
-	'13kogado_02michirue_2',
-	'13kogado_03reng_2',
-	'14flags_01ryoa_3',
-	'14flags_02daigok_2',
-	'14flags_03kazukit_1',
-	'15legend_01amehikok_1',
-	'15legend_02sorak_3',
-	'15legend_03chrisk_1'
+	'01jupiter_01toumaa_2',		# 1
+	'01jupiter_02syoutam_3',	# 2
+	'01jupiter_03hokutoi_1',	# 3
+	'02drasta_01terut_2',		# 4
+	'02drasta_02kaorus_1',		# 5
+	'02drasta_03tubasak_3',		# 6
+	'03alte_01keit_3',			# 7
+	'03alte_02reik_1',			# 8
+	'04beit_01kyoujit_1',		# 9
+	'04beit_02pierre_3',		# 10
+	'04beit_03minoriw_2',		# 11
+	'05w_01yusukea_3',			# 12
+	'05w_02kyosukea_1',			# 13
+	'06frame_01hideoa_1',		# 14
+	'06frame_02ryuk_2',			# 15
+	'06frame_03seijis_3',		# 16
+	'07sai_01kirion_1',			# 17
+	'07sai_02syomah_3',			# 18
+	'07sai_03kuros_3',			# 19
+	'08highj_01hayatoa_2',		# 20
+	'08highj_02junf_1',			# 21
+	'08highj_03natukis_1',		# 22
+	'08highj_04harunaw_3',		# 23
+	'08highj_05sikii_2',		# 24
+	'09godp_01suzakua_2',		# 25
+	'09godp_02genbuk_1',		# 26
+	'10cafe_01yukihirok_3',		# 27
+	'10cafe_02souichiros_1',	# 28
+	'10cafe_03asselin_2',		# 29
+	'10cafe_04makiou_3',		# 30
+	'10cafe_05sakim_2',			# 31
+	'11mofu_01naoo_1',			# 32
+	'11mofu_02sirot_2',			# 33
+	'11mofu_03kanonh_3',		# 34
+	'12sem_01michioh_1',		# 35
+	'12sem_02ruim_3',			# 36
+	'12sem_03jiroy_1',			# 37
+	'13kogado_01takerut_2',		# 38
+	'13kogado_02michirue_2',	# 39
+	'13kogado_03reng_2',		# 40
+	'14flags_01ryoa_3',			# 41
+	'14flags_02daigok_2',		# 42
+	'14flags_03kazukit_1',		# 43
+	'15legend_01amehikok_1',	# 44
+	'15legend_02sorak_3',		# 45
+	'15legend_03chrisk_1'		# 46
 ]
 
 user_agent = 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36'
