@@ -97,7 +97,7 @@ def isImage(rare, i, j, P):
 	img_url = f'http://g12017647.sp.pf.mbga.jp/?url=http%3A%2F%2Fm.i-sidem.idolmaster.jp%2Fimg_sp%2F2021081301%2Fcard%2Fquest%2F{character[i]}_{rare}{j}{P}{scode}.png'
 	img_req = requests.get(img_url, cookies=dummy_cookies, headers=headers, stream=True)
 	soup = BeautifulSoup(img_req.content, 'html.parser')
-	target = soup.find('html')
+	target = soup.find('p')
 	if target is None :
 		return (True)
 	return (False)
