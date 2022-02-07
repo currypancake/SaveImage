@@ -19,7 +19,7 @@ https://github.com/currypancake/wiki-info-macro
 * 라이브러리
 파워쉘을 열고 (파워쉘을 여는 법 - https://www.manualfactory.net/11724) <br />
 pip install requests <br />
-pip install BeautifulSoup <br />
+pip install bs4 <br />
 위 두줄을 복붙하고 엔터를 누릅니다.
 
 설치가 안돼있으면 안돌아갑니다.
