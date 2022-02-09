@@ -118,7 +118,7 @@ def checkCard(i, j):
 
 def findSRImage():
 	# 쥬피터 ~ 코가도
-	for i in range(1, 41) :
+	for i in range(1, 42) :
 		for j in range(25, 40) : #SR번호 25~39(40 미포함)까지 이미지 있는지 확인
 			checkCard(i, j)
 
